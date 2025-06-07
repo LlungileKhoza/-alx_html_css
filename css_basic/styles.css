@@ -7,6 +7,62 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* LOGO styling */
+.logo {
+    font: size 2rem;
+    margin-right: 1rem;
+}
+
+/*Nav hover effect*/
+header a:hover {
+    color: #0077cc;
+    text-decoration: underline;
+}
+
+/* Background and text styling */
+body {
+  background-color: #fffefc;
+  color: #333;
+}
+
+/* Customize article area */
+article h1, article h2, article h3 {
+  color: #006699;
+  margin-top: 1rem;
+}
+
+article p {
+  line-height: 1.6;
+}
+
+/* Style blockquote tweet */
+.twitter-tweet {
+  background-color: #f9f9f9;
+  border-left: 4px solid #1DA1F2;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Table improvements */
+table {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th {
+  background-color: #0077cc;
+  color: #fff;
+}
+
+/* Footer link */
+footer a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
 /* Style the header */
 header {
   background-color: #f8f8f8;
